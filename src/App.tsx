@@ -5,7 +5,7 @@ export default function App() {
 	const [name, setName] = useState(null);
 	const [nameFieldText, setNameFieldText] = useState("");
 
-	if (name == null) return <div style={{ padding: "15px" }}>
+	if (name == null) return <div style={{ padding: "17px" }}>
 		<h1>Welcome, Guest!</h1>
 		<h5>Please set a name!</h5>
 		<Stack direction="horizontal" gap={2}>
@@ -16,7 +16,7 @@ export default function App() {
 
 	return <div style={{ padding: "17px" }}>
 		<h1>Welcome, {name}!</h1>
-		<p>Thanks for using react + bootstrap template!</p>
+		<p>Thanks {name}, for using react + bootstrap template!</p>
 		<hr />
 		<h4>Here's some bootstap examples!</h4>
 		<hr />
