@@ -14,9 +14,9 @@ export default function App() {
 		</Stack>
 	</div>;
 
-	return <div style={{ padding: "15px" }}>
+	return <div style={{ padding: "17px" }}>
 		<h1>Welcome, {name}!</h1>
-		<p>Thanks for using <b>bddy</b>'s react + bootstrap template!</p>
+		<p>Thanks for using react + bootstrap template!</p>
 		<hr />
 		<h4>Here's some bootstap examples!</h4>
 		<hr />
